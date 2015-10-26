@@ -33,6 +33,7 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug'
+  gem 'pry'
 end
 
 group :development do
@@ -44,3 +45,6 @@ group :development do
 end
 
 gem 'mongoid', '~> 4.0.0'
+gem 'open_uri_redirections'
+gem 'faraday'
+gem 'faraday_middleware'
